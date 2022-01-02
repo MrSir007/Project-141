@@ -45,3 +45,6 @@ def unwatched_article () :
   return jsonify({
     "status": "success"
   }), 201
+
+if __name__ == "__main__" :
+  app.run()
